@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins, Helvetica, sans-serif;
+}
+
+.navbar {
+	background-color: transparent !important;
+	box-shadow: none !important; /* Optionally, remove any shadow */
+}
+
+.navbar-nav {
+	margin-left: auto;
+	margin-right: auto;
+}
+  
+.nav-item {
+	padding: 0 15px;
+}
+  
+.navbar-brand img {
+	height: 30px; /* Adjust the height of the logo */
+}
+
+.nav-link:hover {
+	color: rgb(62, 62, 62) !important; /* Change color on hover */
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #252526;
+	border: none;
+}
+
+.navbar {
+    background-color: black !important;
+    box-shadow: none !important;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 50%);
+}
+
+
+.partZero {
+	color: white;
+	background-color: #121212;
+	height: 700px;
+	width: 95%;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 10px;
+	padding-right: 30px;
+	border-radius: 0px 0px 50px 50px;
+}
+
+.partZero h1 {
+    font-size: 6.4vw;
+    width: 64%;
+}
+
+.pg1-topText {
+	margin-left: 12vw;
+	margin-top: 100px;
+	display: flex;
+	font-size: 10vw;
+}
+
+.pg1-rightText {
+    color: gray;
+    width: 35%;
+    margin-top: 20px;
+    font-size: 1.3vw;
+    margin-left: -95px;
+}
+
+.pg1-rightText .btn {
+	background: rgb(239,255,22);
+	background: linear-gradient(90deg, rgba(239,255,22,1) 0%, rgb(189, 234, 10) 65%, rgba(249,252,42,1) 100%);
+	color: black;
+	font-weight: 600;
+	margin-top: 2vw;
+	height: 5vw;
+    width: 15vw;
+    padding: 1vw;
+	font-size: 2vw;
+}
+
+.header-content-side-bottom button{    
+    border: none;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    border-radius: 50px;
+    padding: 1vw 1.9vw;
+	background-color: #252526;
+}
+
+.header-triangle-right {
+    background-clip: text;
+    font-size: 2vw;
+    color: transparent;
+    background-image: linear-gradient(160deg, rgba(82,38,140,1) 0%, rgba(224,60,19,1) 31%, rgba(228,182,96,1) 41%, rgba(177,176,169,1) 56%, rgba(101,176,214,1) 68%, rgba(26,139,126,1) 77%, rgba(53,4,177,1) 88%);
+}
+
+.pgZero-btn {
+	display: flex;
+	align-items: center;
+}
+
+.pgZ-img img {
+    width: 95%;
+    height: auto;
+    margin-top: -100px;
+    /* z-index: 1; */
+    margin-left: 30px;
+}
+
+
+.pgOne-leftCon {
+	width: 40%;
+	margin: 10%;
+	margin-left: 100px;
+	margin-top: 0px;
+}
+
+.pgOne-01 {
+	font-size: 200px;
+	color: rgba(38, 38, 39, 0.064);
+	font-weight: 600;
+}
+
+.feature {
+	margin-top: -150px;
+	margin-left: 50px;
+}
+
+.pgOne-feature {
+	font-size: 1.3rem;
+	color: #252526a2;
+	margin-bottom: 10px;
+}
+
+.feature p {
+	font-size: 1rem;
+	color: #252526a2;
+	margin-top: 30px;
+}
+
+.pgOne-tag {
+	font-size: 3.1rem;
+}
+
+.butons {
+	display: flex;
+}
+
+.butons span {
+	color: rgb(0, 0, 0);	
+}
+
+.pgOne-btn {
+	border: none;
+	width: fit-content;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.pgOne-btn:hover {
+	background-color: black;
+	color: white !important;
+}
+
+.pgOne-btn:hover span {
+	color: white !important;
+}
+
+.box-con {
+	display: flex;
+	flex-direction: column;
+}
+
+.box-con img {
+	height: auto;
+	width: 50px;
+	margin: 10px;
+}
+
+.pgOne-b1 {
+	display: flex;
+	flex-direction: column;
+	color: rgb(125, 125, 125);
+}
+
+.pgOne {
+	display: flex;
+	margin-top: 50px;
+}
+
+.pgOne-box1,
+.pgOne-box2,
+.pgOne-box3,
+.pgOne-box4 {
+	background-color: rgba(128, 128, 128, 0.096);
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.pgOne-box1:hover, 
+.pgOne-box2:hover,
+.pgOne-box3:hover,
+.pgOne-box4:hover {
+	background-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 5px 2px rgba(56, 131, 197, 0.59);
+	height: 210px;
+	width: 210px;
+}
+
+.pgOne-box1:hover .pgOne-b-text, 
+.pgOne-box2:hover .pgOne-b-text,
+.pgOne-box3:hover .pgOne-b-text,
+.pgOne-box4:hover .pgOne-b-text {
+	color: white;
+}
+
+.box-con span {
+	width: fit-content;
+	text-align: center;
+}
+
+.box-con {
+	align-items: center;
+    justify-content: center;
+}
+
+.pgOne-box3 img {
+	width: 100px;
+}
